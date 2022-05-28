@@ -65,6 +65,10 @@ video {
   vertical-align: middle;
 }
 
+img{
+  width: 100%;
+}
+
 /*
  * Remove default fieldset styles.
  */
@@ -267,3 +271,8 @@ textarea {
 #metodologica{
   padding: 20px;
 }
+
+#form-disca, #evaluacion-pedag {
+  display: none;
+}
+
