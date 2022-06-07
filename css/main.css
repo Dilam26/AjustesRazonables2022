@@ -267,8 +267,7 @@ textarea {
 
 #comunicacional,
 #instrumental,
-#accordionExample4,
-#metodologica{
+#accordionExample4{
   padding: 20px;
 }
 
@@ -276,3 +275,28 @@ textarea {
   display: none;
 }
 
+#modal-comunicacional .modal-content{
+  width: 100%;
+}
+
+
+.ps-6 {
+  padding-left: 4.5rem !important;
+}
+
+@media (max-width: 768px) {
+  .ps-6 {
+    padding-left: 0 !important;
+  }
+  .hr-ajuste {
+    width: 90% !important;
+    margin-left: 1rem !important;
+  }
+}
+  
+
+.hr-ajuste {
+  width: 80%;
+  text-align: center;
+  margin-left: 5rem;
+}

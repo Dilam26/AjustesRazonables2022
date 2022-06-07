@@ -55,12 +55,12 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Comunicacional (RA)
+              Accesibilidad Comunicacional (RA)
             </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accesibilidad">
   
-            <div class="accordion" id="comunicacional">
+            <div class="accordion bg-primary text-dark bg-opacity-10" id="comunicacional">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -716,7 +716,167 @@
                   </div>
                 </div>
               </div>
+
+              <!--Modal Ajustes Razonables Comunicacional-->
+              <div class="d-flex justify-content-center mt-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-comunicacional">
+                  Concepto Profesional
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal-comunicacional" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ajustes Razonables Accesibilidad Comunicacional</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+
+                          <div class="col-md-12">
+                            <div class="col-md-12 ps-6">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkAjusteCom1" checked>
+                                <label class="form-check-label" for="checkAjusteCom1">
+                                  Mediaciones discursivas en el acto pedagógico
+                                </label>
+                              </div>
+                            </div>
   
+                            <div class="col-md-12 pt-3 pb-2 d-flex justify-content-center">
+                              <h5>Intensidad</h5>
+                            </div>
+  
+                            <div class="col-md-12 d-flex justify-content-evenly">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom1" id="radioInterCom1">
+                                <label class="form-check-label" for="radioInterCom1">
+                                  Intermitente
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom1" id="radioLimitCom1" >
+                                <label class="form-check-label" for="radioLimitCom1">
+                                  Limitado
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom1" id="radioExtenCom1" checked>
+                                <label class="form-check-label" for="radioExtenCom1">
+                                  Extenso
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom1" id="radioGenCom1" >
+                                <label class="form-check-label" for="radioGenCom1">
+                                  Generalizado
+                                </label>
+                              </div>
+                            </div>
+
+                            <hr class="mt-4">
+                          </div>
+
+                          <div class="col-md-12">
+                            <div class="col-md-12 pb-2 d-flex justify-content-center">
+                              <h4>Apoyo en productos y tecnología</h4>
+                            </div>
+                            <div class="col-md-12 d-flex ps-6">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkAjusteCom2" checked>
+                                <label class="form-check-label" for="checkAjusteCom2">
+                                  Diseño de  estrategias y apoyos diferenciados
+                                </label>
+                              </div>
+                            </div>
+  
+                            <div class="col-md-12 d-flex pt-3 pb-2 justify-content-center">
+                              <h5>Intensidad</h5>
+                            </div>
+  
+                            <div class="col-md-12 d-flex justify-content-evenly">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom2" id="radioInterCom2">
+                                <label class="form-check-label" for="radioInterCom2">
+                                  Intermitente
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom2" id="radioLimitCom2"  checked>
+                                <label class="form-check-label" for="radioLimitCom2">
+                                  Limitado
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom2" id="radioExtenCom2" >
+                                <label class="form-check-label" for="radioExtenCom2">
+                                  Extenso
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom2" id="radioGenCom2" >
+                                <label class="form-check-label" for="radioGenCom2">
+                                  Generalizado
+                                </label>
+                              </div>
+                            </div>
+                            <hr class="hr-ajuste">
+                          </div>
+
+                          <div class="col-md-12 mt-3">
+                            <div class="col-md-12 d-flex ps-6">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkAjusteCom3">
+                                <label class="form-check-label" for="checkAjusteCom3">
+                                  Implementar nuevas estrategias de apoyo
+                                </label>
+                              </div>
+                            </div>
+  
+                            <div class="col-md-12 d-flex pt-3 pb-2 justify-content-center">
+                              <h5>Intensidad</h5>
+                            </div>
+  
+                            <div class="col-md-12 d-flex justify-content-evenly">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom3" id="radioInterCom3">
+                                <label class="form-check-label" for="radioInterCom3">
+                                  Intermitente
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom3" id="radioLimitCom3" >
+                                <label class="form-check-label" for="radioLimitCom3">
+                                  Limitado
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom3" id="radioExtenCom3" >
+                                <label class="form-check-label" for="radioExtenCom3">
+                                  Extenso
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioCom3" id="radioGenCom3" >
+                                <label class="form-check-label" for="radioGenCom3">
+                                  Generalizado
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
   
           </div>
@@ -725,12 +885,12 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Instrumental
+              Accesibilidad Instrumental
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accesibilidad">
   
-            <div class="accordion" id="instrumental">
+            <div class="accordion bg-primary text-dark bg-opacity-10" id="instrumental">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -1928,10 +2088,69 @@
                   </div>
                 </div>
               </div>
-  
+              
+              <!--Modal Ajustes Razonables Instrumental-->
+              <div class="d-flex justify-content-center mt-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-instrumental">
+                  Concepto Profesional
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal-instrumental" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ajustes Razonables Accesibilidad Comunicacional</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+
+                            <div class="col-md-3">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Default checkbox
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="col-md-5 d-flex justify-content-between">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefaut" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Independiente
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefaut" id="flexRadioDefault2" >
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Dependiente
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefaut" id="flexRadioDefault2" >
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Requiere apoyo
+                                </label>
+                              </div>
+                            </div>
+
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
   
             </div>
-  
+            
+
           </div>
         </div>
         
@@ -1942,7 +2161,7 @@
             </button>
           </h2>
           <div id="collapseThree1" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accesibilidad">
-            <div class="accordion-body">
+            <div class="accordion-body bg-primary text-dark bg-opacity-10">
   
               <div class="accordion" id="metodologica">
                
@@ -2291,11 +2510,11 @@
         <div class="accordion-item">
           <h2 class="accordion-header " id="headingThree">
             <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#acces-progra" aria-expanded="false" aria-controls="acces-progra">
-              Caracterización de accesibilidad programática
+              Accesibilidad programática
             </button>
           </h2>
           <div id="acces-progra" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accesibilidad">
-            <div class="accordion-body">
+            <div class="accordion-body bg-primary text-dark bg-opacity-10">
   
               <div class="accordion" id="programatica">
                 
@@ -2596,7 +2815,7 @@
             </button>
           </h2>
           <div id="collapseFisic-Tecno" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accesibilidad">
-            <div class="accordion-body">
+            <div class="accordion-body bg-primary text-dark bg-opacity-10">
               
               <div class="accordion" id="accordionExample">
 
@@ -2641,8 +2860,169 @@
       <img src="img/form2.PNG" alt="">
     </div>
 
+    <!-- Formulario Evaluacion Pedagogica -->
     <div id="evaluacion-pedag">
-      <h2>EN DESARROLLO!!!!</h2>
+        <h1>CARACTERÍSTICAS DEL ESTUDIANTE</h1>
+
+        <div class="container mt-4 mb-4">
+
+          <div id="estilo-aprendizaje" class="row">
+            <div class="col-md-3">
+              <h5>Estilo de Aprendizaje</h5>
+            </div>
+
+            <div class="col-md-3 d-flex align-items-center">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check-visual">
+                <label class="form-check-label" for="check-visual">
+                  Visual
+                </label>
+              </div>
+              <input type="text" class="form-control ms-2" placeholder="Características:" aria-label="caract-visual" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="col-md-3 d-flex align-items-center">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check-auditivo">
+                <label class="form-check-label" for="check-auditivo">
+                  Auditivo
+                </label>
+              </div>
+              <input type="text" class="form-control ms-2" placeholder="Características:" aria-label="caract-auditivo" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="col-md-3 d-flex align-items-center">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check-kines">
+                <label class="form-check-label" for="check-kines">
+                  Kinestésico
+                </label>
+              </div>
+              <input type="text" class="form-control ms-2" placeholder="Características:" aria-label="caract-kinestesico" aria-describedby="basic-addon1">
+            </div>
+            <hr class="mt-3">
+          </div>
+
+          <div id="contex-escolar" class="row mt-4 d-flex align-items-center">
+
+            <div class="col-md-3">
+              <h5>Contexto Escolar</h5>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Características:</label>
+              </div>
+            </div>
+            <hr class="mt-3">
+          </div>
+
+          <div id="contex-familiar" class="row mt-4 d-flex align-items-center">
+
+            <div class="col-md-3">
+              <h5>Contexto Familiar</h5>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Características:</label>
+              </div>
+            </div>
+            <hr class="mt-3">
+          </div>
+
+          <div id="contex-salud" class="row mt-4 d-flex align-items-center">
+
+            <div class="col-md-3">
+              <h5>Contexto Salud</h5>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Características:</label>
+              </div>
+            </div>
+            <hr class="mt-3">
+          </div>
+
+          <div id="habil-intelectual" class="row mt-4 d-flex align-items-center">
+
+            <div class="col-md-3">
+              <h5>Habilidades Intelectuales</h5>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Características:</label>
+              </div>
+            </div>
+            <hr class="mt-3">
+          </div>
+
+          <div id="proces-logico" class="row mt-4 d-flex align-items-center">
+
+            <div class="col-md-12">
+              <h3>PROCESOS DE RAZONAMIENTO LÓGICO</h3>
+            </div>
+
+            <div class="row m-4">
+              <div class="col-md-3">
+                <h5>Conceptos Básicos</h5>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea">Características:</label>
+                </div>
+              </div>
+              <hr class="mt-3">
+            </div>
+
+            <div class="row m-4">
+              <div class="col-md-3">
+                <h5>Numeración Cálculo</h5>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea">Características:</label>
+                </div>
+              </div>
+              <hr class="mt-3">
+            </div>
+
+            <div class="row m-4">
+              <div class="col-md-3">
+                <h5>Resolución de Problemas</h5>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea">Características:</label>
+                </div>
+              </div>
+              <hr class="mt-3">
+            </div>
+
+            <div class="row m-4">
+              <div class="col-md-3">
+                <h5>Medidas y Magnitudes</h5>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea">Características:</label>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        
+        </div>
     </div>
 
   </div>
