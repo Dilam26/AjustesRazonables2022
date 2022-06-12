@@ -300,3 +300,11 @@ textarea {
   text-align: center;
   margin-left: 5rem;
 }
+
+#modal-comunicacional label,
+#modal-instrumental label,
+#modal-metodologico label,
+#modal-programatico label,
+#modal-fisic_tecno label{
+  font-weight: 600;
+}
